@@ -24,7 +24,18 @@ jobs:
           user: Malihassan
           filename: github-metrics.svg
           template: classic
-          base: header, activity, community, repositories, metadata
           config_timezone: Africa/Cairo
+
+          # Only the header (name, years on GitHub, repos contributed to) — no zero rows
+          base: header
+
+          # Commit activity as an isometric calendar — highlights the 4,473 commits
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # Total lines of code added/removed across repos
+          plugin_lines: yes
+
+          # Top languages by usage
           plugin_languages: yes
           plugin_languages_limit: 8
