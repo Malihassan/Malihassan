@@ -86,4 +86,12 @@ Skilled **Back-End Developer** with experience designing and implementing scalab
 
 ---
 
+### 📊 GitHub Metrics
+
+<p align="center">
+  <img src="./github-metrics.svg" alt="Momen's GitHub metrics"/>
+</p>
+
+---
+
 <p align="center"><i>“Building secure, scalable systems — one API at a time.”</i></p>
